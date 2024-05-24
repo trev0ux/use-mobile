@@ -3,6 +3,7 @@
 ## Como rodar o mock server:
 - Execute o comando `npm install -g http-server`
 - Navegue para dentro da pasta /use-mobile e execute `http-server .`
+- Acesse `http://192.168.0.104:8080`
 
 ## Projeto desenvolvido em:
 - HTML, CSS e JavaScript
