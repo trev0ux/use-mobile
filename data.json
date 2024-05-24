@@ -1,0 +1,21 @@
+{
+    "employers": [
+      { "sectorId": 1, "name": "André", "registration": 123 },
+      { "sectorId": 1, "name": "Beatriz", "registration": 124 },
+      { "sectorId": 2, "name": "Carlos", "registration": 125 },
+      { "sectorId": 2, "name": "Daniela", "registration": 126 },
+      { "sectorId": 3, "name": "Eduardo", "registration": 127 },
+      { "sectorId": 3, "name": "Fernanda", "registration": 128 },
+      { "sectorId": 4, "name": "Gustavo", "registration": 129 },
+      { "sectorId": 4, "name": "Helena", "registration": 130 },
+      { "sectorId": 5, "name": "Isabela", "registration": 131 },
+      { "sectorId": 5, "name": "João", "registration": 132 }
+    ],
+    "sectors": [
+      { "name": "Recursos Humanos", "id": 1 },
+      { "name": "Tecnologia da Informação", "id": 2 },
+      { "name": "Administração", "id": 3 },
+      { "name": "Financeiro", "id": 4 },
+      { "name": "Marketing", "id": 5 }
+    ]
+  }

@@ -1,0 +1,77 @@
+@import url("./forms/form-check.css");
+@import url("./_base/typography.css");
+@import url("./mobile.css");
+
+
+body {
+    background-color: #F8F6F1;
+}
+
+.search {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+
+    padding: 30px 15px;
+}
+
+.search .search__filters {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 64px;
+    height: 450px;
+}
+
+.search .search__filters h1 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.search .search__filters ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.search .search__employers h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+
+.search .search__employers section {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.search .search__employers section div {
+    flex: 0 0 calc(50% - 5px);
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+.search .search__selected-filters {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.search .search__selected-filters li {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
